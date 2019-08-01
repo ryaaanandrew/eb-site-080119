@@ -1,0 +1,21 @@
+.button {
+    padding: 2rem 3rem;
+    background-color: rgb(250, 182, 54);
+    width: 30rem;
+    border-radius: 2rem;
+    box-shadow: 0px 13px 20px -2px rgba(0,0,0,0.32);
+    font-size: 3rem;
+    text-transform: uppercase;
+    transition: all .3s; 
+    display: inline-block;
+    margin: 2rem 0;
+
+    &:hover {
+        background-color: rgb(255, 166, 0);
+        transform: translateY(-3px);
+    }
+
+    &:active {
+        transform: translateY(0);
+    }
+}

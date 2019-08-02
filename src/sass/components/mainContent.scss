@@ -33,6 +33,11 @@
 .section {
     color: var(--color-grey-dark-1);
     padding: 2rem 3rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
 
     &__header {
         font-family: 'Raleway', sans-serif;
@@ -44,6 +49,15 @@
 
         @media only screen and (max-width: 600px) {
             font-size: 1.5rem;
+        }
+    }
+
+    &__img {
+        width: 80%;
+        margin-bottom: 2.5rem;
+
+        @media only screen and (max-width: 600px) {
+            width: 100%;
         }
     }
 

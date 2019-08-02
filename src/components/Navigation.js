@@ -7,17 +7,17 @@ const Navigation = () => {
                 <li className="nav__item">
                     <a href="#section-1" className='nav__link'>
                         <svg className='nav__icon'>
-                            <use xlinkHref='img/sprite.svg#icon-home'></use>
+                            <use xlinkHref='img/sprite.svg#icon-star'></use>
                         </svg>
-                        <span>Link 1</span>
+                        <span>Discounts</span>
                     </a>
                 </li>
                 <li className="nav__item">
                     <a href="#section-2" className='nav__link'>
                         <svg className='nav__icon'>
-                            <use xlinkHref='img/sprite.svg#icon-aircraft-take-off'></use>
+                            <use xlinkHref='img/sprite.svg#icon-home'></use>
                         </svg>
-                        <span>Link 2</span>
+                        <span>Homes</span>
                     </a>
                 </li>
                 <li className="nav__item">
@@ -25,21 +25,29 @@ const Navigation = () => {
                         <svg className='nav__icon'>
                             <use xlinkHref='img/sprite.svg#icon-key'></use>
                         </svg>
-                        <span>Link 3</span>
+                        <span>Taxes</span>
                     </a>
                 </li>
                 <li className="nav__item">
                     <a href="#section-4" className='nav__link'>
                         <svg className='nav__icon'>
+                            <use xlinkHref='img/sprite.svg#icon-key'></use>
+                        </svg>
+                        <span>Benefits</span>
+                    </a>
+                </li>
+                <li className="nav__item">
+                    <a href="#section-5" className='nav__link'>
+                        <svg className='nav__icon'>
                             <use xlinkHref='img/sprite.svg#icon-map'></use>
                         </svg>
-                        <span>Link 4</span>
+                        <span>Debt free</span>
                     </a>
                 </li>
             </ul>
 
             <div className="legal">
-                &copy; 2017  All rights reserved.
+                &copy; 2019  All rights reserved.
             </div>
         </nav>
     )

@@ -11,7 +11,7 @@ const MainContent = () => {
             </div>
             </header>
 
-            <section className="section" id="section-1">
+            <section className="section">
                 <div className="section__header">
                     <h1>9 Biggest Discounts and Benefits Many Seniors Forget to Claim</h1>
                 </div>
@@ -23,7 +23,7 @@ const MainContent = () => {
                 </div>
             </section>
             <hr/>
-            <section className="section" id="section-2">
+            <section className="section" id="section-1">
                 <div className="section__header">
                     <h3>#1 - Discounts at America's Favorite Restaurants</h3>
                 </div>
@@ -49,7 +49,7 @@ const MainContent = () => {
             </div>
             
 
-            <section className="section" id="section-3">
+            <section className="section" id="section-2">
                 <div className="section__header">
                     <h3>#2 - Born Before 1985? Take $3,120/year Off Your Mortgage with the New Government "Enhanced Relief" Program</h3>
                 </div>
@@ -68,10 +68,11 @@ const MainContent = () => {
                 </div>
             </section>
 
-            <section className="section" id="section-4">
+            <section className="section" id="section-3">
                 <div className="section__header">
                     <h3>#3 - Seniors 55 and Older Get $1,000,000 Tax-Free Life Insurance</h3>
                 </div>
+                <img className='section__img' src="https://i.imgur.com/bfjseme.jpg" alt="grandchildren"/>
                 <div className="section__content">
                     <p>Unfortunately with every year you age your insurance premium amount rises 8-10%. For some, rising life insurance policy costs can add up significantly. And what's worse is the fact that many have a hard time qualifying for new policies altogether once they reach a certain age.
 
@@ -104,6 +105,15 @@ const MainContent = () => {
                 </ul>
             </div>
 
+            <section className="section" id="section-5">
+                <div className="section__header">
+                    <h3>#5 - More Than $5,000 in Tax Debt? Use This Brilliant Debt Payoff Plan</h3>
+                </div>
+                <img src="https://i.imgur.com/B6ff9ix.jpg" alt="worry" className="section__img"/>
+                <div className="section__content">
+                    <p>Senior discounts don't just stop at restaurants and life insurance. Enjoy your new found discounts at some of your favorite retailers. We've put together our special list for 2019 where seniors can save at some of our favorite places. Keep in mind that deals may vary at participating locations and can change without notice.</p>
+                </div>
+            </section>
             <Footer />
         </div>
 
